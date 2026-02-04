@@ -1,0 +1,25 @@
+Profile data file 'callgrind.out.9720' (creator: callgrind-3.22.0)
+--------------------------------------------------------------------------------
+I1 cache:
+D1 cache:
+LL cache:
+Timerange: Basic block 0 - 135560629
+Trigger: Program termination
+Profiled target:  ./ex4 (PID 9720, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:
+User annotated:
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+Ir
+--------------------------------------------------------------------------------
+3,643,169,027 (100.0%)  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir                      file:function
+--------------------------------------------------------------------------------
+3,630,435,855 (99.65%)  ???:matmul [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex4]

@@ -1,0 +1,5 @@
+O0 time␣=␣0.231579␣s
+O2 ␣time␣=␣0.102703␣s
+
+optimized version using unrolling : 0.065933␣s
+

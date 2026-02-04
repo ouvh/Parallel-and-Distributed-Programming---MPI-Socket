@@ -1,0 +1,24 @@
+n = 100000000
+
+2,200,000,014 (33.85%)  ???:compute_addition [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+1,799,999,997 (27.69%)  ???:add_noise [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+1,300,000,012 (20.00%)  ???:init_b [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+1,200,000,013 (18.46%)  ???:reduction [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+
+
+n = 10000000
+
+220,000,014 (33.84%)  ???:compute_addition [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+179,999,997 (27.69%)  ???:add_noise [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+130,000,012 (20.00%)  ???:init_b [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+120,000,013 (18.46%)  ???:reduction [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+
+
+n = 5*1000000
+
+110,000,014 (33.83%)  ???:compute_addition [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+ 89,999,997 (27.68%)  ???:add_noise [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+ 65,000,012 (19.99%)  ???:init_b [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+ 60,000,013 (18.45%)  ???:reduction [/mnt/c/Users/OussamaLaaroussi/Desktop/CS__s8/Parallel/TP2/ex3]
+
+
