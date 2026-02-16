@@ -1,0 +1,6 @@
+threads,schedule,chunk,time
+1,static,default,8.435393
+2,static,default,4.681723
+4,static,default,2.578663
+8,static,default,2.070428
+16,static,default,2.117746

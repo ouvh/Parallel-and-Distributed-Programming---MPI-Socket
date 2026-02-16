@@ -1,0 +1,19 @@
+=== Testing Exercise 1 with 4 threads ===
+OMP_NUM_THREADS=4 ./ex1
+Hello from the rank 0 thread
+Hello from the rank 3 thread
+Hello from the rank 1 thread
+Hello from the rank 2 thread
+Parallel execution of hello_world with 4 threads
+
+=== Testing Exercise 1 with 8 threads ===
+OMP_NUM_THREADS=8 ./ex1
+Hello from the rank 0 thread
+Hello from the rank 3 thread
+Hello from the rank 7 thread
+Hello from the rank 4 thread
+Hello from the rank 5 thread
+Hello from the rank 2 thread
+Hello from the rank 6 thread
+Hello from the rank 1 thread
+Parallel execution of hello_world with 8 threads
