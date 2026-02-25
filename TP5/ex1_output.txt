@@ -1,0 +1,134 @@
+Hello World from process 1
+I am process 1 of 50 total processes
+Hello World from process 4
+I am process 4 of 50 total processes
+Hello World from process 22
+I am process 22 of 50 total processes
+Hello World from process 29
+I am process 29 of 50 total processes
+Hello World from process 48
+I am process 48 of 50 total processes
+Hello World from process 47
+I am process 47 of 50 total processes
+Hello World from process 24
+I am process 24 of 50 total processes
+Hello World from process 26
+I am process 26 of 50 total processes
+Hello World from process 2
+I am process 2 of 50 total processes
+Hello World from process 21
+I am process 21 of 50 total processes
+Hello World from process 11
+I am process 11 of 50 total processes
+Hello World from process 18
+I am process 18 of 50 total processes
+Hello World from process 27
+I am process 27 of 50 total processes
+Hello World from process 30
+I am process 30 of 50 total processes
+Hello World from process 38
+I am process 38 of 50 total processes
+Hello World from process 5
+I am process 5 of 50 total processes
+Hello World from process 37
+I am process 37 of 50 total processes
+Hello World from process 41
+I am process 41 of 50 total processes
+Hello World from process 28
+I am process 28 of 50 total processes
+Hello World from process 34
+I am process 34 of 50 total processes
+Hello World from process 31
+I am process 31 of 50 total processes
+Hello World from process 16
+I am process 16 of 50 total processes
+Hello World from process 3
+I am process 3 of 50 total processes
+Hello World from process 46
+I am process 46 of 50 total processes
+Hello World from process 0
+I am process 0 of 50 total processes
+
+=== Master Process Message ===
+This message is printed by rank 0 only
+Total number of MPI processes: 50
+==============================
+
+Hello World from process 42
+I am process 42 of 50 total processes
+Hello World from process 43
+I am process 43 of 50 total processes
+Hello World from process 45
+I am process 45 of 50 total processes
+Hello World from process 40
+I am process 40 of 50 total processes
+Hello World from process 44
+I am process 44 of 50 total processes
+Hello World from process 23
+I am process 23 of 50 total processes
+Hello World from process 32
+I am process 32 of 50 total processes
+Hello World from process 10
+I am process 10 of 50 total processes
+Hello World from process 25
+I am process 25 of 50 total processes
+Hello World from process 35
+I am process 35 of 50 total processes
+Hello World from process 6
+I am process 6 of 50 total processes
+Hello World from process 14
+I am process 14 of 50 total processes
+Hello World from process 39
+I am process 39 of 50 total processes
+Hello World from process 17
+I am process 17 of 50 total processes
+Hello World from process 33
+I am process 33 of 50 total processes
+Hello World from process 12
+I am process 12 of 50 total processes
+Hello World from process 8
+I am process 8 of 50 total processes
+Hello World from process 7
+I am process 7 of 50 total processes
+Hello World from process 19
+I am process 19 of 50 total processes
+Hello World from process 15
+I am process 15 of 50 total processes
+Hello World from process 13
+I am process 13 of 50 total processes
+Hello World from process 20
+I am process 20 of 50 total processes
+Hello World from process 36
+I am process 36 of 50 total processes
+Hello World from process 49
+I am process 49 of 50 total processes
+Hello World from process 9
+I am process 9 of 50 total processes
+
+
+
+execution without finalize:
+prterun has exited due to process rank 2 with PID 3283643 on node slurm-login-h23d5-u38-svn3 exiting
+improperly. There are three reasons this could occur:
+
+1. this process did not call "init" before exiting, but others in the
+job did. This can cause a job to hang indefinitely while it waits for
+all processes to call "init". By rule, if one process calls "init",
+then ALL processes must call "init" prior to termination.
+
+2. this process called "init", but exited without calling "finalize".
+By rule, all processes that call "init" MUST call "finalize" prior to
+exiting or it will be considered an "abnormal termination"
+
+3. this process called "MPI_Abort" or "prte_abort" and the mca
+parameter prte_create_session_dirs is set to false. In this case, the
+run-time cannot detect that the abort call was an abnormal
+termination. Hence, the only error message you will receive is this
+one.
+
+This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+
+You can avoid this message by specifying -quiet on the prterun command
+line.
+--------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+
+5
+Enter an integer (negative to quit): Process 0 got 5
+Process 1 got 5
+Process 2 got 5
+Process 3 got 5
+Process 5 got 5
+Process 4 got 5
+
+102
+Enter an integer (negative to quit): Process 0 got 102
+Process 1 got 102
+Process 3 got 102
+Process 2 got 102
+Process 5 got 102
+Process 4 got 102
+
+-5
+Enter an integer (negative to quit): Negative value received. Exiting...
