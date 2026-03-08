@@ -8,3 +8,4 @@
 - [TP4](TP4/parallel_tp4.pdf)
 - [TP5](TP4/parallel_tp5.pdf)
 - [TP6](TP6/parallel_tp6.pdf)
+- [TP7](TP7/parallel_tp7.pdf)
