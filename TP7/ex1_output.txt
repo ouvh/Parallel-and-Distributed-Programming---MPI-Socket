@@ -1,0 +1,37 @@
+=== Conway's Game of Life - MPI 2D Cartesian Topology ===
+Global grid: 64 x 64
+Number of processes: 30
+Process grid: 6 x 5
+Local grid per process: 10 x 12 (plus ghost cells)
+Generations: 100
+Boundary conditions: periodic (wrap-around)
+
+Rank 0 - Initial configuration (internal cells):
+. O O . O . . . . O . . 
+. . O . . O . . . . O . 
+. . O . . . . . . . O O 
+. O . . . O . . O . O O 
+. . . . . . O . . . . O 
+. . . . O . . O O . . O 
+O O . . O O O O . . . . 
+. O O O . O . . . O . . 
+. O . . . . . O . . . . 
+. . . O . . . . . O O . 
+
+Rank 0 - Generation 100 (final):
+. . . . . . . . . . . . 
+. . . . . . . . . . . . 
+. . . . . . . . . . . . 
+. . . . . . . . . . . . 
+. . . . . . . . . . . . 
+. . . . . . . . . . . . 
+. . . . . . . . . . . . 
+. . . . . . . . . . O O 
+. . . . . . . . . O . O 
+. . . . . . . . . . O . 
+
+Simulation complete!
+Final alive cells: 283 / 4096 (6.91%)
+Total time: 0.151501 seconds
+Computation time: 0.104235 seconds
+Communication overhead: 0.047267 seconds
